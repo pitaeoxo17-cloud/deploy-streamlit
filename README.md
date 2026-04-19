@@ -6,6 +6,7 @@ Dashboard ini dibuat untuk menganalisis data penyewaan sepeda, khususnya mengena
 - `dashboard`: Berisi data yang sudah dibersihkan dan file 'dashboard.py'.
 - `notebook.ipynb`: Proses analisis data dari Wrangling hingga Exploratory Sata Analysis (EDA).
 - `requirement`: Daftar library yang dibutuhkan.
+- `dataset all_day dan all_hour`: Brisi dataset yang sudah melalui tahap Wrangling
 
 ## Setup Environment - Terminal/Shell
 Jika kamu ingin menjalankan proyek ini secara lokal, pastikan sudah menginstal python di komputermu, lalu ikuti langkah berikut
