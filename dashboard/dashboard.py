@@ -87,10 +87,10 @@ st.title('Bike Sharing Analysis Dashboard')
 col1, col2 = st.columns(2)
 with col1:
     total_rentals = main_day_df.cnt.sum()
-    st.metric('Total Penyewaan', value=f'{total_rentals:,}')
+    st.metric('Total Penyewaan', value=f'{total_rentals:,}(Unit)')
 with col2:
-    avg_rentals = round(main_day_df.cnt.sum())
-    st.metric('Rata-rata per Hari', value=f'{avg_rentals:,}')
+    avg_rentals = round(main_day_df.cnt.mean())
+    st.metric('Rata-rata per Hari', value=f'{int(avg_rentals):,}(Unit/Hari)')
 
 st.markdown('---')
 
