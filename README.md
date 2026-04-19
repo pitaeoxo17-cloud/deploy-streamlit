@@ -19,5 +19,5 @@ Jika kamu ingin menjalankan proyek ini secara lokal, pastikan sudah menginstal p
 pyhton -m streamlit run dashboard.py
 
 ## Link Dashboard yang sudah di deploy
-**https://deploy-app-050cdc15.streamlit.app/**
+**https://deploy-app-pitacdc15scientist.streamlit.app/**
 
