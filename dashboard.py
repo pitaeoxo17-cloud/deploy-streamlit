@@ -41,7 +41,7 @@ def group_time(hour):
 #load data dan preprocessing
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv('main_data.csv')
+    day_df = pd.read_csv('all_day.csv')
     hour_df = pd.read_csv('all_hour.csv')
 
     day_df['dteday'] = pd.to_datetime(day_df['dteday'])
