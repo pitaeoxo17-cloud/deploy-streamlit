@@ -4,9 +4,11 @@ Dashboard ini dibuat untuk menganalisis data penyewaan sepeda, khususnya mengena
 
 ## Struktur Folder
 - `dashboard`: Berisi data yang sudah dibersihkan dan file 'dashboard.py'.
-- `notebook.ipynb`: Proses analisis data dari Wrangling hingga Exploratory Sata Analysis (EDA).
+- `data`: Berisi dataset mentah (day.csv & hour.csv)
+- `Proyek_Analisis_Data.ipynb`: Proses analisis data dari Wrangling hingga Exploratory Sata Analysis (EDA).
 - `requirement`: Daftar library yang dibutuhkan.
-- `dataset all_day dan all_hour`: Brisi dataset yang sudah melalui tahap Wrangling
+- `url.txt`: link dashboard yang sudah di deploy menggunakan streamlit
+
 
 ## Setup Environment - Terminal/Shell
 Jika kamu ingin menjalankan proyek ini secara lokal, pastikan sudah menginstal python di komputermu, lalu ikuti langkah berikut
