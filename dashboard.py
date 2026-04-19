@@ -89,7 +89,7 @@ with col1:
     total_rentals = main_day_df.cnt.sum()
     st.metric('Total Penyewaan', value=f'{total_rentals:,}')
 with col2:
-    avg_rentals = round(main_day_df.cnt.sum())
+    avg_rentals = round(main_day_df.cnt.mean())
     st.metric('Rata-rata per Hari', value=f'{avg_rentals:,}')
 
 st.markdown('---')
